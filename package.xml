@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mbc</name>
+  <version>1.0.0</version>
+  <description>Package of assets for Singapore Mapletree Business City Office, home of Decada Robotics</description>
+  <author email="code@scottcjx.com">Scott CJX</author>
+
+  <license>Apache 2.0</license>
+  <author email="code@scottcjx.com">Scott CJX</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>
